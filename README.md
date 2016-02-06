@@ -9,4 +9,5 @@ If you have any questions, do not hesitate to contact me:
 
 todd.squitieri@alumni.newschool.edu
 
-Ann can be reached on Twitter. Click [here](https://twitter.com/annchichii) !
+Ann can be reached on Twitter. Click [here](https://twitter.com/annchichii
+  ) !
