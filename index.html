@@ -180,6 +180,93 @@
     margin-bottom: 45px;
   }
 
+  .pricepoint{
+    width: 242px;
+    height: 285px;
+    margin-left: 69%;
+    border: 1px solid gray;
+    -webkit-border-radius: 9%;
+    -moz-border-radius: 9%;
+    border-radius: 9%;
+  }
+
+
+  .pricepoint2{
+    width: 242px;
+    height: 285px;
+    margin-left: 23%;
+    border: 1px solid gray;
+    -webkit-border-radius: 9%;
+    -moz-border-radius: 9%;
+    border-radius: 9%;
+  }
+
+  .pricepoint3{
+    width: 242px;
+    height: 285px;
+    margin-left: -23%;
+    border: 1px solid gray;
+    -webkit-border-radius: 9%;
+    -moz-border-radius: 9%;
+    border-radius: 9%;
+  }
+
+  #pricepointheading{
+    background-color: #85b0e3;
+    width: 101%;
+    height: 53px;
+    position: relative;
+    border-top-left-radius: 9%;
+    -webkit-top-left-border-radius: 9%;
+    -moz-border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+    -webkit-top-right-border-radius: 9%;
+    -moz-border-top-right-radius: 9%;
+    margin: 0;
+    top: -14px;
+    left: -1px;
+    text-align: center;
+    color: white;
+    font-family: 'Verdana', sans-serif;
+    font-weight: lighter;
+    padding-top: 5%;
+  }
+
+
+
+  #pricepointheading2{
+    background-color: #00ebc0;
+    width: 101%;
+    height: 53px;
+    position: relative;
+    border-top-left-radius: 9%;
+    -webkit-top-left-border-radius: 9%;
+    -moz-border-top-left-radius: 9%;
+    border-top-right-radius: 9%;
+    -webkit-top-right-border-radius: 9%;
+    -moz-border-top-right-radius: 9%;
+    margin: 0;
+    top: -14px;
+    left: -1px;
+    text-align: center;
+    color: white;
+    font-family: 'Verdana', sans-serif;
+    font-weight: lighter;
+    padding-top: 5%;
+  }
+
+  #prices{
+    background-color: #f6f4f5;
+    width: 100%;
+    height: 53px;
+    margin: 0px;
+    padding: 0;
+    padding-top: 8px;
+    border: 0;
+    margin-top: -14px;
+    text-align: center;
+  }
+
   /* testimonials */
   .testimonial{
     width: 100%;
@@ -211,9 +298,19 @@
 }
 
 .recommender2{
-    float: right;
-    display: inline;
-    width: 67%;
+  float: right;
+  display: inline;
+  width: 67%;
+  margin-top: -17%;
+}
+
+.recommender3{
+  float: right;
+  display: inline;
+  width: 67%;
+  margin-top: -15%;
+  margin-right: 4%;
+  position: relative;
 }
 
 .john{
@@ -413,22 +510,53 @@
     </section>
 
 
-    <!-- ========= PRICE POINTS SECTION ========== -->
+    <!-- ========= ~*~*~*~PRICE POINTS SECTION~*~*~*~*~* ========== -->
 
     <section class="price">
 
       <div class="row">
-        <div class="col-md-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-        <!-- end of col sm 6 -->
+        <div class="col-md-4 selling">
 
-        <div class="col-md-6">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div class="pricepoint">
+<h4 id="pricepointheading">Starter</h4>
+<h1 id="prices">$9.99</h1>
+
+
+
+
+          </div><!-- end of pricepoint -->
+
         </div>
-        <!-- end of col sm 6 -->
+        <!-- end of col md 4 -->
+
+        <div class="col-md-4">
+
+          <div class="pricepoint2">
+      <h4 id="pricepointheading2">Premium</h4>
+
+
+
+
+
+
+          </div><!-- end of pricepoint -->
+
+
+        </div>
+        <!-- end of col md 4 -->
+
+        <div class="col-md-4">
+
+          <div class="pricepoint3">
+
+          <h4 id="pricepointheading">Basic</h4>
+
+
+          </div><!-- end of pricepoint -->
+
+
+        </div>
+        <!-- end of col md 4 -->
 
       </div><!-- end or row -->
 
@@ -451,16 +579,19 @@
           <div class="testimonialbox">
 
             <div class="recommender">
-              <img class="john" src="assets/img/john.jpg">
-              <p class="recommender2">"Asthma Care is really easy to use and I love their challege sessions. I understand Asthma more through it, too!"</p><br />
-              <span class="recommender3" align="right">- Sam Fraser, CTO ABC Organization</span>
+              <img class="john" src="assets/img/john.jpg" style="display: inline-block;">
+              <div class="test" style="display: inline-block;">
+              <p class="recommender2">"Asthma Care is really easy to use and I love their challege sessions. I understand Asthma more through it, too!"<br />
+              - Sam Fraser, CTO ABC Organization</p>
+            </div><!-- end of test -->
             </div><!-- end of recommender -->
 
             <div class="recommender">
               <img class="john" src="assets/img/sam.jpg">
-              <p class="recommender2">"Asthma Care helps me form the habit of taking peak flow and my other symptoms. The record helps me find the pattern and show to the doctor!"</p><br />
-              <span class="recommender3">- Liv Haley, community manager XYZ company</span>
-
+              <div class="test" style="display: inline-block;">
+              <p class="recommender3">"Asthma Care helps me form the habit of taking peak flow and my other symptoms. The record helps me find the pattern and show to the doctor!"<br />
+- Liv Haley, community manager XYZ company</p>
+            </div><!-- end of test -->
 
             </div><!-- end of recommender2 -->
 
