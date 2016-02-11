@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+  <!-- JAVASCRIPT COMPONENT -->
+
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+
   <meta charset="utf-8">
   <title>Asthma Care</title>
   <!-- stylesheets -->
@@ -36,6 +41,8 @@
     width: 100%;
   }
 
+/* HEADER */
+
   .header {
     width: 100%;
     height: 100%;
@@ -43,6 +50,11 @@
     background-color: #70C0B5;
   }
 
+#picture{
+  opacity: 0;
+} /* end of picture */
+
+/* END OF HEADER */
   .band {
     width: 100%;
     height: 25%;
@@ -154,6 +166,9 @@
     display: table-cell;
     padding-left: 36%;
     padding-top: 19%;
+  }
+  .thefourboxes{
+    opacity: 0;
   }
 
   /* monitoring */
@@ -347,7 +362,7 @@
     <!-- ========= HEADER SECTION ========== -->
 
     <section class="header">
-      <div class="header">
+      <div class="header" id="picture">
 
         <img src="assets/img/asthmacare.png" alt="" />
 
@@ -628,11 +643,10 @@
   <!-- end of container -->
 
 
-  <!-- JAVASCRIPT COMPONENT -->
-  <script type="text/javascript">
+  <script>
+  $('#picture').delay(1000).animate({opacity: 1}, 700);
+$('.thefourboxes').delay(2000).animate({opacity: 1}, 700);
   </script>
-
-
 
 
 </body>
