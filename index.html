@@ -352,6 +352,24 @@
   .col-md-offset-3 {
     margin: 0;
   }
+
+.socialmedia{
+  width: 25px;
+  display: inline;
+}
+
+#socialmedialist{
+  list-style-type: none;
+  display: inline;
+  float: right;
+}
+
+#socialmedialist li{
+  display: inline;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
 </style>
 
 <body>
@@ -656,9 +674,16 @@
 
   <footer>
     <div class="col-md-6 col-md-offset-3 footer">
-      <p style="color: white; text-align: center;">
-        This is a test. &copy; 2016, Ann Founder of the Universe
+      <p style="color: white; text-align: left; margin: -8px; display: inline;">
+        "A fit, healthy body--that is the best fashion statement."<br />
+        -- Jess. C. Scott
       </p>
+      <ul id="socialmedialist">
+        <li><img src="assets/img/icons/googleicon.png" class="socialmedia" alt="Google Plus"></li>
+        <li><img src="assets/img/icons/facebookicon.png" class="socialmedia" alt="Facebook"></li>
+        <li><img src="assets/img/icons/twittericon.png" class="socialmedia" alt="Twitter"></li>
+        <li><img src="assets/img/icons/instaicon.png" class="socialmedia" alt="Instagram"></li>
+      </ul>
     </div>
     <!-- end of col md 6 -->
 
